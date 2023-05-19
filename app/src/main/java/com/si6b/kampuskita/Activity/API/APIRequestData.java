@@ -1,6 +1,7 @@
-package API;
+package com.si6b.kampuskita.Activity.API;
 
-import Model.ModelResponse;
+import com.si6b.kampuskita.Activity.Model.ModelResponse;
+
 import retrofit2.Call;
 import retrofit2.http.Field;
 import retrofit2.http.FormUrlEncoded;
