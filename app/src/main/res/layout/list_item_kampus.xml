@@ -16,7 +16,8 @@
             android:id="@+id/tv_id"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Id"/>
+            android:text="Id"
+            android:visibility="gone"/>
         <TextView
             android:id="@+id/tv_nama"
             android:layout_width="wrap_content"
@@ -34,6 +35,30 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:text="alamat"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_weight="2"
+            android:layout_marginTop="6dp">
+
+            <Button
+                android:id="@+id/ibtn_ubah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ubah"
+                android:drawableLeft="@drawable/ic_ubah"
+                android:layout_weight="1"/>
+
+            <Button
+                android:id="@+id/ibtn_hapus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hapus"
+                android:drawableLeft="@drawable/ic_hapus"
+                android:layout_weight="1"/>
+        </LinearLayout>
 
     </LinearLayout>
 </androidx.cardview.widget.CardView>
