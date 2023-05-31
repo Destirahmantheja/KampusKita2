@@ -35,7 +35,7 @@
         android:hint="alamat"/>
 
     <Button
-        android:id="@+id/btn_Tambah"
+        android:id="@+id/btn_ubah"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Simpan"/>

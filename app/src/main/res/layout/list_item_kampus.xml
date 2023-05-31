@@ -44,7 +44,7 @@
             android:layout_marginTop="6dp">
 
             <Button
-                android:id="@+id/ibtn_ubah"
+                android:id="@+id/btn_ubah"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="ubah"
@@ -52,7 +52,7 @@
                 android:layout_weight="1"/>
 
             <Button
-                android:id="@+id/ibtn_hapus"
+                android:id="@+id/btn_hapus"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="hapus"
